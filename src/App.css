@@ -1,6 +1,10 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	margin: 0;
+	padding: 0;
+}
 
 .App {
 	font-family: 'Raleway', sans-serif;
@@ -14,6 +18,37 @@ h1 {
 	font-size: 100px;
 	text-transform: uppercase;
 }
+h3 {
+	font-size: 20px;
+}
+
 img {
 	margin: 20px;
+}
+#navbar {
+	position: fixed;
+	width: 100vw;
+	height: 100px;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul {
+	padding: 0;
+}
+li {
+	display: inline-flex;
+	position: relative;
+	padding: 0 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	color: red;
 }

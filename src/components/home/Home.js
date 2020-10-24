@@ -8,7 +8,7 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className='home'>
       <h1>James Oseland's World Food Books</h1>
       <img src={mexico} alt='Mexico Book Cover'></img>
       <img src={paris} alt='Paris Book Cover'></img>

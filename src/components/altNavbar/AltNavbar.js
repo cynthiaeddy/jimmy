@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const Navbar = () => {
+const AltNavbar = () => {
   return (
+    <div >
 
-				<nav id="navbar">
-          <h2>
-            <ul>
+      <h2>
+            <ul className='altnav'>
 						<li>
 							<Link to="/" className="home">
 								Home
@@ -34,22 +34,15 @@ const Navbar = () => {
 							</Link>
           </li>
           <li>
-							<Link to="/alt-navbar" className="alt-navbar">
-								Alt Navbar
-							</Link>
-          </li>
-          <li>
 							<Link to="/alt-home" className="alt-home">
 								Alt Home
 							</Link>
               </li>
               </ul>
 					</h2>
-				</nav>
 
-
-
+    </div>
   );
 };
 
-export default Navbar;
+export default AltNavbar;

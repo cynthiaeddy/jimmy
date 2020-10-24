@@ -7,6 +7,9 @@ import AboutJim from './components/aboutJim/AboutJim'
 import AboutWF from './components/aboutWF/AboutWF'
 import SignUp from './components/signUp/SignUp'
 import Videos from './components/videoPage/Videos'
+import AltNavbar from './components/altNavbar/AltNavbar'
+import AltHome from './components/altHome/AltHome'
+
 
 
 
@@ -14,14 +17,16 @@ import Videos from './components/videoPage/Videos'
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Navbar />
-      <Route path="/" component={Home} />
-						<Route path="/about-jim" component={AboutJim} />
+      <Route exact path="/" component={Home} />
       <Route path="/world-foods" component={AboutWF} />
-      <Route path="/about-jim" component={AboutJim} />
+      <Route path="/about-james" component={AboutJim} />
       <Route path="/sign-up" component={SignUp} />
       <Route path="/videos" component={Videos} />
+      <Route path="/alt-navbar" component={AltNavbar} />
+      <Route path="/alt-home" component={AltHome} />
+
 
 
     </div>

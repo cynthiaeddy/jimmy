@@ -18,7 +18,8 @@ body {
 	overflow: hidden;
 	/* margin-top: 200px; */
 }
-.wf-content {
+.wf-content,
+.jim-outside-container {
 	display: flex;
 	flex-direction: row;
 }
@@ -26,6 +27,15 @@ body {
 	width: 600px;
 	height: 150px;
 	/* border: 1px solid #000; */
+}
+.jim-foto {
+	width: 400px;
+	height: 800px;
+	border: 1px solid #000;
+	margin-left: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h1 {
@@ -171,4 +181,21 @@ a:hover {
 }
 .alter-home h1 {
 	margin-top: 0;
+}
+.jim-inside-container {
+	width: 40vw;
+}
+.jim-scroll p {
+	width: 100%;
+}
+.jim,
+.worldFoods {
+	width: 90vw;
+}
+.jim-book {
+	height: 188px;
+	width: inherit;
+}
+.jim-foto p {
+	text-align: center;
 }

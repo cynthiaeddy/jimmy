@@ -17,8 +17,9 @@ import AltHome from './components/altHome/AltHome'
 
 function App() {
   return (
-    <div className="container">
-      <Navbar />
+    <div>
+    <Navbar />
+      <div className="container">
       <Route exact path="/" component={Home} />
       <Route path="/world-foods" component={AboutWF} />
       <Route path="/about-james" component={AboutJim} />
@@ -28,7 +29,7 @@ function App() {
       <Route path="/alt-home" component={AltHome} />
 
 
-
+      </div>
     </div>
   );
 }

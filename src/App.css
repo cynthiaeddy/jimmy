@@ -11,20 +11,21 @@ body {
 	font-family: 'Raleway', sans-serif;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	text-align: center;
 	height: 100vh;
 	margin: 0;
 	overflow: hidden;
+	/* margin-top: 200px; */
 }
 .wf-content {
 	display: flex;
 	flex-direction: row;
 }
 .box {
-	width: 300px;
+	width: 600px;
 	height: 150px;
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 }
 
 h1 {
@@ -41,11 +42,16 @@ h2 {
 p {
 	width: 40vw;
 	margin: 0 50px;
+	text-align: left;
 }
 
 img {
 	margin: 20px;
 	width: 25%;
+}
+.box img {
+	margin: 0px;
+	width: 50%;
 }
 .home {
 	margin-top: 70px;
@@ -75,7 +81,13 @@ a {
 	color: #000;
 }
 a:hover {
-	color: red;
+	color: grey;
+}
+.worldFoods,
+.jim,
+.signup,
+.video {
+	margin-top: 200px;
 }
 
 .altnav {
@@ -156,4 +168,7 @@ a:hover {
 }
 .altnav a:hover {
 	color: black;
+}
+.alter-home h1 {
+	margin-top: 0;
 }

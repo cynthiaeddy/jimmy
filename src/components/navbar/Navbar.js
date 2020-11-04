@@ -1,54 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ToggleButton from '../navbar/ToggleButton'
+
 
 
 const Navbar = () => {
   return (
 
-				<nav id="navbar">
-          <h2>
-            <ul>
-						<li>
-							<Link to="/" className="home">
-								Home
-							</Link>
-						</li>
-						<li>
-							<Link to="/world-foods" className="world-foods">
-								About World Foods
-							</Link>
-						</li>
-						<li>
-							<Link to="/about-james" className="about-james">
-								About Jim
-							</Link>
-              </li>
-              <li>
-							<Link to="/sign-up" className="sign-up">
-								Sign Up
-							</Link>
-              </li>
-              <li>
-							<Link to="/videos" className="videos">
-								Videos
-							</Link>
-          </li>
-          <li>
-							<Link to="/alt-navbar" className="alt-navbar">
-								Alt Navbar
-							</Link>
-          </li>
-          <li>
-							<Link to="/alt-home" className="alt-home">
-								Alt Home
-							</Link>
-              </li>
-              </ul>
-					</h2>
-				</nav>
-
-
-
+		<nav id="navbar">
+			<h4>JAMES OSELAND</h4>
+			<div  class="navbarItems">
+			<h4>MENU</h4>
+			<Link to="/alt-navbar"><div  className='boxes'><ToggleButton /></div></Link>
+			</div>
+		</nav>
   );
 };
 

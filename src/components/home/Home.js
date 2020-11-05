@@ -1,8 +1,6 @@
 import React from 'react';
-import ToggleButton from '../navbar/ToggleButton'
 import mexico from '../../assets/images/mexico.jpg'
 import paris from '../../assets/images/paris.jpg'
-import { Link } from 'react-router-dom';
 
 
 const Home = () => {

@@ -1,3 +1,10 @@
+/* font-family: franklin-gothic-atf, sans-serif;
+font-weight: 100;
+font-style: normal; */
+/* font-family: franklin-gothic-condensed, sans-serif;
+font-weight: 400;
+font-style: normal; */
+
 * {
 	box-sizing: border-box;
 }
@@ -43,9 +50,11 @@ body {
 }
 
 h1 {
-	font-weight: 100;
+	font-family: franklin-gothic-atf, sans-serif;
+	font-weight: 80;
 	font-size: 100px;
 	text-transform: uppercase;
+	letter-spacing: -5px;
 }
 h3 {
 	font-size: 20px;
@@ -55,6 +64,9 @@ h2 {
 }
 h4 {
 	color: white;
+	font-family: franklin-gothic-condensed, sans-serif;
+	font-weight: 600;
+	font-style: normal;
 }
 p {
 	width: 40vw;
@@ -190,9 +202,9 @@ a:hover {
 .altnav a:hover {
 	color: black;
 }
-.home h1 {
+/* .home h1 {
 	margin-top: 0;
-}
+} */
 .jim-inside-container {
 	width: 40vw;
 }

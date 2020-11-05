@@ -8,11 +8,11 @@ const AltNavbar = () => {
 
       <h2>
             <ul className='altnav'>
-						{/* <li>
-							<Link to="/" className="home">
+						<li>
+							<Link to="/" className="alt-home">
 								Home
 							</Link>
-						</li> */}
+              </li>
 						<li>
 							<Link to="/world-foods" className="world-foods">
 								About World Foods
@@ -33,11 +33,7 @@ const AltNavbar = () => {
 								Videos
 							</Link>
           </li>
-          {/* <li>
-							<Link to="/alt-home" className="alt-home">
-								Alt Home
-							</Link>
-              </li> */}
+
               </ul>
 					</h2>
 

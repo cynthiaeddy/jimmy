@@ -228,3 +228,26 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 }
+
+.home {
+	width: 1212px;
+	height: 862px;
+	border: 1px solid black;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	/* position: absolute; */
+}
+.opener {
+	width: 1212px;
+	height: 862px;
+	padding-left: 50px;
+	margin-top: 0;
+	padding-top: 0;
+}
+h1 {
+	position: absolute;
+	color: peachpuff;
+	font-size: 81px;
+	align-items: center;
+}

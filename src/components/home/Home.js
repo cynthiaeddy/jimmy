@@ -46,7 +46,6 @@ const Home = () => {
           <img src={openerWaiter} className='righty'></img>
           <img src={openerWhite} className='righty white'>
           </img>
-          {/* <div className='righty whitebox'></div> */}
           <img src={openerOysters} className='righty'></img>
           <img src={openerRed} className='righty'></img>
           <img src={openerFighter} className='righty'></img>

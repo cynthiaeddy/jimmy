@@ -1,0 +1,74 @@
+h1 {
+	font-family: franklin-gothic-atf, sans-serif;
+	font-weight: 80;
+	font-size: 100px;
+	text-transform: uppercase;
+	letter-spacing: -5px;
+	position: absolute;
+	color: black;
+	font-size: 81px;
+	align-items: center;
+}
+.home {
+	z-index: 10;
+	width: 70vw;
+	height: 100vh;
+	margin-top: 30px;
+	overflow-y: scroll;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.photo-container {
+	display: flex;
+	margin-top: 180px;
+}
+.interior {
+	flex-basis: 33%;
+	position: relative;
+}
+.interior .left,
+.interior .right,
+.interior .main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	/* position: relative; */
+}
+
+.mexico {
+	margin-top: 20px;
+	width: 98%;
+}
+.lefty,
+.righty {
+	/* width: 43.75%; */
+	width: 43.5%;
+}
+img.lefty {
+	margin-top: 20px;
+	margin-right: 20px;
+}
+img.righty {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.homeDek {
+	position: absolute;
+	top: 22%;
+	width: 50%;
+}
+h4 {
+	text-align: left;
+	margin-left: 25px;
+	letter-spacing: 0;
+	font-size: 25px;
+	line-height: 1.2;
+}
+.whitebox {
+	width: 21px;
+	height: 22px;
+	background: black;
+	width: 50%;
+}

@@ -25,20 +25,7 @@ body {
 	overflow: hidden;
 	/* margin-top: 200px; */
 }
-/*
-.home {
-	width: 70vw;
-} */
-.wf-content,
-.jim-outside-container {
-	display: flex;
-	flex-direction: row;
-}
-.box {
-	width: 600px;
-	height: 150px;
-	/* border: 1px solid #000; */
-}
+
 .jim-foto {
 	width: 400px;
 	height: 800px;
@@ -49,13 +36,6 @@ body {
 	align-items: center;
 }
 
-h1 {
-	font-family: franklin-gothic-atf, sans-serif;
-	font-weight: 80;
-	font-size: 100px;
-	text-transform: uppercase;
-	letter-spacing: -5px;
-}
 h3 {
 	font-size: 20px;
 }
@@ -77,10 +57,6 @@ p {
 	text-align: left;
 }
 
-/* img {
-	margin: 20px;
-	width: 25%;
-} */
 .box img {
 	margin: 0px;
 	width: 50%;
@@ -163,18 +139,6 @@ a:hover {
 	/* left: 10px; */
 }
 
-.home {
-	/* background: white; */
-	position: absolute;
-	z-index: 10;
-	width: 70vw;
-	height: 100vh;
-	margin-top: 120px;
-	overflow-y: scroll;
-	position: relative;
-	/* overflow: auto; */
-}
-/* .navbarItems, */
 .boxes {
 	background: transparent;
 	width: 100px;
@@ -205,9 +169,7 @@ a:hover {
 .altnav a:hover {
 	color: black;
 }
-/* .home h1 {
-	margin-top: 0;
-} */
+
 .jim-inside-container {
 	width: 40vw;
 }
@@ -218,10 +180,7 @@ a:hover {
 .worldFoods {
 	width: 90vw;
 }
-/* .jim-book {
-	height: 188px;
-	width: inherit;
-} */
+
 .jim-foto p {
 	text-align: center;
 }
@@ -232,17 +191,6 @@ a:hover {
 	align-items: center;
 }
 
-.home {
-	width: 1500px;
-	/* height: 862px; */
-	/* border: 1px solid black; */
-	position: relative;
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-
-	/* position: absolute; */
-}
 .opener {
 	padding-left: 50px;
 	margin-top: 0;
@@ -250,58 +198,7 @@ a:hover {
 	width: 100%;
 	height: 100%;
 }
-h1 {
-	position: absolute;
-	color: black;
-	font-size: 81px;
-	align-items: center;
-}
 
-.photo-container {
-	display: flex;
-	margin-top: 180px;
-	/* border: 1px solid black; */
-	width: 100%;
-}
-
-.main {
-	/* width: 100%;
-	max-height: 100%; */
-	margin-top: 20px;
-
-	/* height: 100vh; */
-}
-.interior .left {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-}
-.lefty,
-.righty {
-	/* margin-left: 20px;
-	margin-top: 20px; */
-	width: 40%;
-}
-
-/* .interior.main img {
-	width: 97%;
-} */
-img.lefty {
-	/* margin-left: 20px; */
-	margin-top: 20px;
-	margin-right: 20px;
-}
-
-/* img {
-	margin-right: 20px;
-	margin-bottom: 20px;
-} */
-/* .interior.left. */
 .white {
 	background: #fff;
-}
-
-img.righty {
-	margin-top: 20px;
-	margin-left: 20px;
 }

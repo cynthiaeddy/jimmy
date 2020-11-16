@@ -1,5 +1,7 @@
 import React from 'react';
-import '../../stylesheets/home.css'
+import { Link } from 'react-router-dom';
+
+import '../../stylesheets/Home.css'
 import mexico from '../../assets/images/mexico.jpg'
 import coverSm from '../../assets/images/coverSm.jpg'
 
@@ -39,7 +41,7 @@ const Home = () => {
           <img src={openerDessert} className='lefty'></img>
         </div>
         <div className='interior main'>
-          <img src={mexico} className='mexico'></img>
+        <Link to="/world-foods" className="world-foods"><img src={mexico} className='mexico'></img></Link>
         </div>
         <div className='interior right'>
           <img src={openerBlue} className='righty'></img>

@@ -1,0 +1,23 @@
+.wf-content {
+	width: 80vw;
+	display: flex;
+	margin-top: 80px;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.main {
+	width: 70%;
+	margin-top: 20px;
+}
+.spread {
+	width: 100%;
+}
+h2 {
+	margin-bottom: 50px;
+	font-family: 'EB Garamond', serif;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 2px;
+	font-size: 15px;
+}

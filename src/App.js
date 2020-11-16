@@ -6,7 +6,7 @@ import AboutJim from './components/aboutJim/AboutJim'
 import AboutWF from './components/aboutWF/AboutWF'
 import SignUp from './components/signUp/SignUp'
 import Videos from './components/videoPage/Videos'
-import AltNavbar from './components/altNavbar/AltNavbar'
+import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import Navbar from './components/navbar/Navbar'
 
 
@@ -24,7 +24,7 @@ function App() {
       <Route path="/about-james" component={AboutJim} />
       <Route path="/sign-up" component={SignUp} />
       <Route path="/videos" component={Videos} />
-      <Route path="/alt-navbar" component={AltNavbar} />
+      <Route path="/navbar" component={NavBarToggle} />
 
 
       </div>

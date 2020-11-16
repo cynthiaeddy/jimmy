@@ -8,11 +8,12 @@ const Navbar = () => {
   return (
 
 		<nav id="navbar">
-			<h4>James Oseland</h4>
-			<div  className="navbarItems">
-			<h4>Menu</h4>
-			<Link to="/alt-navbar"></Link>
-			</div>
+			<Link to='/about-james'><h3>James Oseland</h3></Link>
+
+
+				<Link to="/navbar"><h3>Menu</h3></Link>
+
+
 		</nav>
   );
 };

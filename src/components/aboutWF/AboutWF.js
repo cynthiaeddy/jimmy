@@ -1,21 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import mexico from '../../assets/images/mexico.jpg'
-import paris from '../../assets/images/paris.jpg'
+import '../../stylesheets/AboutWF.css'
+
+import cactusSpread from '../../assets/images/cactusSpread.jpg'
 
 const AboutWF = () => {
   return (
-    <div className='worldFoods'>
-<h2>World Foods</h2>
-      <div className='wf-content'>
-        <p> "Take care you do not disturb it; and even if the room feel close, do not to-night open the window or the door."
+    <div className='wf-content'>
+     <h2><div className='back'>back</div></h2>
 
-"I promise," said Lucy, "and thank you both a thousand times for all your kindness to me! Oh, what have I done to be blessed with such friends?"</p>
-        <div className='box'>
-        <img src={mexico} alt='Mexico Book Cover'></img>
-      <img src={paris} alt='Paris Book Cover'></img>
+<div className='main'>
+      <a href target="#"> <h2>buy me text will be in navbar</h2></a><img src={cactusSpread} className='spread' alt='spread'></img>
+      </div>
+      <h2><div className='forward'>forward</div></h2>
         </div>
-        </div>
-    </div>
+
   );
 };
 

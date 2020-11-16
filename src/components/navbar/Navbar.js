@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
 
 		<nav id="navbar">
-			<h4>JAMES OSELAND</h4>
-			<div  class="navbarItems">
-			<h4>MENU</h4>
+			<h4>James Oseland</h4>
+			<div  className="navbarItems">
+			<h4>Menu</h4>
 			<Link to="/alt-navbar"><div  className='boxes'><ToggleButton /></div></Link>
 			</div>
 		</nav>

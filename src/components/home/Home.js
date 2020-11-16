@@ -25,23 +25,23 @@ const Home = () => {
       <h1>World Food Books</h1>
       <section className='photo-container'>
         <div className='interior left'>
-          <img src={openergal} className='gal'></img>
-          <img src={openerFlan} className='flan'></img>
-          <img src={openerCorn} className='corn'></img>
-          <img src={openerWoman} className='woman'></img>
-          <img src={openerMan} className='man'></img>
-          <img src={openerDessert} className='dessert'></img>
+          <img src={openergal} className='lefty'></img>
+          <img src={openerFlan} className='lefty'></img>
+          <img src={openerCorn} className='lefty'></img>
+          <img src={openerWoman} className='lefty'></img>
+          <img src={openerMan} className='lefty'></img>
+          <img src={openerDessert} className='lefty'></img>
         </div>
         <div className='interior main'>
           <img src={mexico} className='mexico'></img>
         </div>
         <div className='interior right'>
-          <img src={openerBlue} className='blue'></img>
-          <img src={openerWaiter} className='waiter'></img>
-          <img src={openerOysters} className='white'></img>
-          <img src={openerOysters} className='oysters'></img>
-          <img src={openerRed} className='red'></img>
-          <img src={openerFighter} className='fighter'></img>
+          <img src={openerBlue} className='righty'></img>
+          <img src={openerWaiter} className='righty'></img>
+          <img src={openerOysters} className='righty white'></img>
+          <img src={openerOysters} className='righty'></img>
+          <img src={openerRed} className='righty'></img>
+          <img src={openerFighter} className='righty'></img>
         </div>
 
       </section>

@@ -11,7 +11,7 @@ const Navbar = () => {
 			<h4>James Oseland</h4>
 			<div  className="navbarItems">
 			<h4>Menu</h4>
-			<Link to="/alt-navbar"><div  className='boxes'><ToggleButton /></div></Link>
+			<Link to="/alt-navbar"></Link>
 			</div>
 		</nav>
   );

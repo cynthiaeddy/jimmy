@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import '../../stylesheets/Home.css'
 import mexico from '../../assets/images/mexico.jpg'
-import coverSm from '../../assets/images/coverSm.jpg'
 
 import opener from '../../assets/images/jim indesign3 1.png'
 
@@ -33,24 +32,24 @@ const Home = () => {
       <h1>World Food Books</h1>
       <section className='photo-container'>
         <div className='interior left'>
-          <img src={openergal} className='lefty'></img>
-          <img src={openerFlan} className='lefty'></img>
-          <img src={openerCorn} className='lefty'></img>
-          <img src={openerWoman} className='lefty'></img>
-          <img src={openerMan} className='lefty'></img>
-          <img src={openerDessert} className='lefty'></img>
+          <img src={openergal} className='lefty'alt=''></img>
+          <img src={openerFlan} className='lefty'alt=''></img>
+          <img src={openerCorn} className='lefty'alt=''></img>
+          <img src={openerWoman} className='lefty'alt=''></img>
+          <img src={openerMan} className='lefty'alt=''></img>
+          <img src={openerDessert} className='lefty'alt=''></img>
         </div>
         <div className='interior main'>
-        <Link to="/world-foods" className="world-foods"><img src={mexico} className='mexico'></img></Link>
+        <Link to="/world-foods" className="world-foods"><img src={mexico} className='mexico'alt=''></img></Link>
         </div>
         <div className='interior right'>
-          <img src={openerBlue} className='righty'></img>
-          <img src={openerWaiter} className='righty'></img>
-          <img src={openerWhite} className='righty white'>
+          <img src={openerBlue} className='righty'alt=''></img>
+          <img src={openerWaiter} className='righty'alt=''></img>
+          <img src={openerWhite} className='righty white'alt=''>
           </img>
-          <img src={openerOysters} className='righty'></img>
-          <img src={openerRed} className='righty'></img>
-          <img src={openerFighter} className='righty'></img>
+          <img src={openerOysters} className='righty'alt=''></img>
+          <img src={openerRed} className='righty'alt=''></img>
+          <img src={openerFighter} className='righty'alt=''></img>
           <div className='homeDek'><h4>dek goes here something this long maybe to fill this space another line</h4></div>
 
         </div>

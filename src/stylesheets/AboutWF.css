@@ -1,6 +1,6 @@
 .wf-content {
 	display: flex;
-	margin-top: 60px;
+	/* margin-top: 80px; */
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: row;
@@ -9,13 +9,17 @@
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	margin-top: 20px;
+	margin-top: 80px;
 }
-.wf-container {
+/* .wf-container {
 	width: 77vw;
-	/* margin-top: 60px; */
+	margin-top: 60px;
+} */
+.slide {
+	display: none;
+	max-width: 900px;
+	text-align: center;
 }
-
 .main {
 	width: 80%;
 	margin-top: 20px;
@@ -30,4 +34,25 @@ h2 {
 	font-style: italic;
 	letter-spacing: 2px;
 	font-size: 15px;
+}
+.inactive {
+	display: none;
+}
+.active {
+	display: block;
+}
+
+/* .image {
+	border: 1 px solid grey;
+} */
+
+.fas {
+	display: inline-flex;
+}
+/* .backArrow {
+	position: relative;
+} */
+.arrowSpace h2 {
+	margin: 0 10px;
+	/* position: absolute; */
 }

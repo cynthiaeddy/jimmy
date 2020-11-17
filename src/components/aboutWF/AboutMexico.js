@@ -1,8 +1,10 @@
 import React from 'react';
-import Images from '../../carouselMexico/Images'
-import ForwardArrow from '../../carouselMexico/ForwardArrow'
-import BackArrow from '../../carouselMexico/BackArrow'
-import Slide from '../../carouselMexico/Slider'
+import imageData from '../carouselMexico/Images'
+import ForwardArrow from '../carouselMexico/ForwardArrow'
+import BackArrow from '../carouselMexico/BackArrow'
+import Slide from '../carouselMexico/Slide'
+import '../../stylesheets/AboutWF.css'
+
 
 
 class AboutMexico extends React.Component {
@@ -10,7 +12,7 @@ class AboutMexico extends React.Component {
     super(props);
       this.state = {
       activeIndex: 0,
-      length: Images.length
+      length: imageData.length
     };
   }
   goToPrevSlide() {
@@ -44,7 +46,7 @@ class AboutMexico extends React.Component {
 
   render (){
   return (
-    <div className='wf-container'>
+    // <div className='wf-container'>
 
       <div className='wf-content'>
       <BackArrow
@@ -60,7 +62,7 @@ class AboutMexico extends React.Component {
       />
 
       </div>
-      </div>
+      // </div>
   );
 };
 }

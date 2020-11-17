@@ -8,7 +8,7 @@ import SignUp from './components/signUp/SignUp'
 import Videos from './components/videoPage/Videos'
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import Navbar from './components/navbar/Navbar'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 

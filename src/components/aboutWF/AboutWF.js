@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 
 
 import mexico from '../../assets/images/mexico.jpg'
@@ -30,7 +32,7 @@ const AboutWF = () => {
 
           <Carousel
        showThumbs={false}
-              infiniteLoop
+              infiniteLoop={true}
               showArrows={true}
               // onChange={onChange}
               // onClickItem={onClickItem}
@@ -45,13 +47,13 @@ const AboutWF = () => {
        >
 
 
-         <img src={biggerFlautas}alt=''/>
+         <img src={biggerFlautas} className='spread'alt=''/>
 
 
-          <img src={cactusSpread} alt=''/>
+          <img src={cactusSpread} className='spread' alt=''/>
 
-            <img src={biggerFamily} alt='' />
-            <img src={cactusSpread}alt='' />
+            <img src={biggerFamily} className='spread'alt='' />
+            <img src={cactusSpread} className='spread'alt='' />
 
             </Carousel>
             </div>

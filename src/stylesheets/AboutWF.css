@@ -17,6 +17,7 @@
 }
 .spread {
 	width: 100%;
+	border: .5px solid black;
 }
 h2 {
 	margin-bottom: 50px;
@@ -26,11 +27,17 @@ h2 {
 	letter-spacing: 2px;
 	font-size: 15px;
 }
-
-.carousel-wrapper,
+li.slide.selected {
+	width: 100%;
+	border: 1px solid black;
+}
+.carousel.slide {
+	width: 100%;
+}
+/* .carousel-wrapper,
 .carousel,
 .carousel > .slider-wrapper,
 .carousel > .slider-wrapper > .slider {
 	flex: 1 1 auto;
 	background-color: black;
-}
+} */

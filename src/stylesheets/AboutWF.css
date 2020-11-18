@@ -6,11 +6,11 @@
 	justify-content: space-around;
 	flex-direction: row;
 	position: relative;
-	height: 85%;
+	height: 90%;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	width: 75%;
 }
 

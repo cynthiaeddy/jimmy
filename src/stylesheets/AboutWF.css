@@ -16,7 +16,6 @@
 
 .slide {
 	display: none;
-	/* max-width: 900px; */
 	text-align: center;
 }
 
@@ -31,12 +30,6 @@ h2 {
 	font-style: italic;
 	letter-spacing: 2px;
 	font-size: 18px;
-}
-.inactive {
-	display: none;
-}
-.active {
-	display: block;
 }
 
 .fas {
@@ -65,4 +58,10 @@ span {
 	font-size: 25px;
 	font-weight: bold;
 	vertical-align: -10%;
+}
+.arrows.back.gone {
+	visibility: hidden;
+}
+.arrows.back.show {
+	display: visible;
 }

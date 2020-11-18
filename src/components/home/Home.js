@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../../stylesheets/Home.css'
+import '../../stylesheets/home.css'
 import mexico from '../../assets/images/mexico.jpg'
 
 import opener from '../../assets/images/jim indesign3 1.png'
@@ -13,7 +13,6 @@ import openerFighter from '../../assets/images/openerFighter.jpg'
 import openerFlan from '../../assets/images/openerFlan.jpg'
 import openergal from '../../assets/images/openergal.jpg'
 import openerWhite from '../../assets/images/openerWhite.jpg'
-
 import openerMan from '../../assets/images/openerMan.jpg'
 import openerOysters from '../../assets/images/openerOysters.jpg'
 import openerRed from '../../assets/images/openerRed.jpg'
@@ -45,8 +44,7 @@ const Home = () => {
         <div className='interior right'>
           <img src={openerBlue} className='righty'alt=''></img>
           <img src={openerWaiter} className='righty'alt=''></img>
-          <img src={openerWhite} className='righty white'alt=''>
-          </img>
+          <img src={openerWhite} className='righty white'alt=''></img>
           <img src={openerOysters} className='righty'alt=''></img>
           <img src={openerRed} className='righty'alt=''></img>
           <img src={openerFighter} className='righty'alt=''></img>

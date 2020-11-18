@@ -1,5 +1,5 @@
 import React from 'react';
-import imageData from '../carouselMexico/Images'
+import Images from '../carouselMexico/Images'
 import ForwardArrow from '../carouselMexico/ForwardArrow'
 import BackArrow from '../carouselMexico/BackArrow'
 import Slide from '../carouselMexico/Slide'

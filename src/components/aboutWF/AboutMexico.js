@@ -54,7 +54,8 @@ class AboutMexico extends React.Component {
         </div>
     <div className='slider-items'>
       <Slide
-        activeIndex={this.state.activeIndex}
+         activeIndex={this.state.activeIndex}
+         goToNextSlide={() => this.goToNextSlide()}
       />
       </div>
       <div className='arrows front'>

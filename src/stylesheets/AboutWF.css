@@ -5,15 +5,18 @@
 	/* margin-top: 80px; */
 	justify-content: space-around;
 	flex-direction: row;
-	position: relative;
+	/* position: relative; */
 	height: 90%;
 	width: 100%;
 	margin: 0 auto;
-	overflow: hidden;
+	/* overflow: hidden; */
 	/* margin-top: 20px; */
 	width: 75%;
 }
 
+.active {
+	display: block;
+}
 .slide {
 	display: none;
 	text-align: center;
@@ -32,9 +35,9 @@ h2 {
 	font-size: 18px;
 }
 
-.fas {
+/* .fas {
 	display: inline-flex;
-}
+} */
 
 .arrowSpace {
 	margin: 0 10px;

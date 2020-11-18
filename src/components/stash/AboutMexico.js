@@ -7,7 +7,7 @@ import '../../stylesheets/AboutWF.css'
 
 
 
-class AboutWF extends React.Component {
+class AboutMexico extends React.Component {
   constructor(props) {
     super(props);
       this.state = {
@@ -70,7 +70,7 @@ class AboutWF extends React.Component {
 };
 }
 
-export default AboutWF;
+export default AboutMexico;
 
 
 

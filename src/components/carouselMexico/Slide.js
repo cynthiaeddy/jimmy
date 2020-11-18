@@ -16,9 +16,10 @@ render() {
           <div className={
             index === this.props.activeIndex ? 'active' : 'slide'}
             key={index}>
-            <div className={index === 0 ? 'mainSlide' : 'slider-item'}></div>
+            <div className={index === 0 ? 'mainSlide arrows back gone'  : 'slider-item arrows back show'}></div>
             {s.img}
-            {/* <div className={index === 0 ? 'arrows back gone' : 'backArrow show'}></div> */}
+            {/* <div className={index === 0 ? 'arrows back gone' : 'arrows back show'}></div> */}
+            <div className={index === this.state.landing.length-1 ? 'arrows front gone' : 'arrows front show'}></div>
 
           </div>
         ) }

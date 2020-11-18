@@ -35,10 +35,6 @@ h2 {
 	font-size: 18px;
 }
 
-/* .fas {
-	display: inline-flex;
-} */
-
 .arrowSpace {
 	margin: 0 10px;
 }
@@ -69,9 +65,11 @@ span {
 	font-weight: bold;
 	vertical-align: -10%;
 }
-.arrows.back.gone {
+.arrows.back.gone,
+.arrows.front.gone {
 	visibility: hidden;
 }
-.arrows.back.show {
-	display: visible;
+.arrows.back.show,
+.arrows.front.show {
+	visibility: visible;
 }

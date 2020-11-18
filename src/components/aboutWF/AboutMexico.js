@@ -46,7 +46,6 @@ class AboutMexico extends React.Component {
 
   render (){
   return (
-    // <div className='wf-container'>
 
     <div className='wf-content'>
       <div className='arrows back'>

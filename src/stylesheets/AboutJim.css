@@ -2,7 +2,6 @@
 	z-index: 10;
 	width: 80vw;
 	height: 100vh;
-	overflow-y: scroll;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -39,7 +38,7 @@ p {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.5;
-	padding: 20px;
+	padding: 20px 0 20px 20px;
 }
 .jim.left {
 	/* background: rgba(0, 0, 0, .2); */
@@ -47,6 +46,7 @@ p {
 	border: 20px solid rgba(0, 0, 0, .2);
 	height: 65vh;
 	overflow: hidden;
+	overflow: scroll;
 }
 .jimPhoto {
 	position: absolute;
@@ -55,4 +55,20 @@ p {
 	right: -55px;
 	top: -30px;
 	/* left: 10; */
+}
+.dropcap {
+	color: rgb(207, 120, 61);
+	/* font-family: 'Playfair Display', serif; */
+	font-family: 'EB Garamond', serif;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 600;
+
+	float: left;
+	font-size: 150px;
+	line-height: 120px;
+	padding-top: -25px;
+	padding-bottom: 5px;
+	/* padding-top: 4px; */
+	padding-left: 5px;
+	font-stretch: ultra-expanded;
 }

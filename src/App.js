@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/home/Home'
 import AboutJim from './components/aboutJim/AboutJim'
-import AboutWF from './components/aboutWF/AboutWF'
+import AboutWF from './components/aboutWF/AboutMexico'
 import AboutMexico from './components/aboutWF/AboutMexico'
 
 import SignUp from './components/signUp/SignUp'
@@ -22,7 +22,7 @@ function App() {
       <Navbar/>
       <div className="container">
       <Route exact path="/" component={Home} />
-      <Route path="/world-foods" component={AboutWF} />
+      <Route path="/world-foods" component={AboutMexico} />
       <Route path="/about-james" component={AboutJim} />
       <Route path="/sign-up" component={SignUp} />
       <Route path="/videos" component={Videos} />

@@ -1,25 +1,76 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import mexico from '../../assets/images/mexico.jpg'
+import imageData from '../carouselMexico/Images'
+import ForwardArrow from '../carouselMexico/ForwardArrow'
+import BackArrow from '../carouselMexico/BackArrow'
+import Slide from '../carouselMexico/Slide'
 import '../../stylesheets/AboutWF.css'
 
-import cactusSpread from '../../assets/images/cactusSpread.jpg'
 
-const AboutWF = () => {
+
+class AboutWF extends React.Component {
+  constructor(props) {
+    super(props);
+      this.state = {
+      activeIndex: 0,
+      length: imageData.length
+    };
+  }
+  goToPrevSlide() {
+    let index = this.state.activeIndex;
+    let length = this.state.length;
+      if(index < 1) {
+      index = length - 1;
+      }
+      else {
+        index--;
+      }
+      this.setState({
+      activeIndex: index
+    });
+  }
+
+  goToNextSlide() {
+    let index = this.state.activeIndex;
+    let length = this.state.length;
+      if(index === length - 1) {
+        index = 0
+      }
+      else {
+        index++;
+      }
+    this.setState({
+    activeIndex: index
+      });
+  }
+
+
+  render (){
   return (
-    <div className='wf-container'>
+    // <div className='wf-container'>
+
     <div className='wf-content'>
-     <h2><div className='back'>back</div></h2>
+      <div className='arrows back'>
+      <BackArrow
+        goToPrevSlide={() => this.goToPrevSlide()}
+        />
+        </div>
+    <div className='slider-item'>
+      <Slide
+        activeIndex={this.state.activeIndex}
+      />
+      </div>
+      <div className='arrows front'>
+      <ForwardArrow
+        goToNextSlide={() => this.goToNextSlide()}
+      />
 
-<div className='main'>
-      <a href target="#"> <h2>buy me text will be in navbar</h2></a><img src={cactusSpread} className='spread' alt='spread'></img>
       </div>
-      <h2><div className='forward'>forward</div></h2>
-      </div>
-      </div>
-
+       </div>
   );
 };
+}
 
 export default AboutWF;
+
+
+

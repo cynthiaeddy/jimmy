@@ -2,15 +2,11 @@
 
 .wf-content {
 	display: flex;
-	/* margin-top: 80px; */
 	justify-content: space-around;
 	flex-direction: row;
-	/* position: relative; */
 	height: 90%;
 	width: 100%;
 	margin: 0 auto;
-	/* overflow: hidden; */
-	/* margin-top: 20px; */
 	width: 75%;
 }
 

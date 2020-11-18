@@ -1,0 +1,33 @@
+.aboutJim {
+	z-index: 10;
+	width: 80vw;
+	height: 100vh;
+	overflow-y: scroll;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.photo-container {
+	display: flex;
+	margin-top: 120px;
+}
+.jim {
+	flex-basis: 33%;
+	position: relative;
+}
+.jim .left,
+.jim .right,
+.jim .main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+img.righty {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.lefty,
+.righty {
+	/* width: 43.75%; */
+	width: 43.5%;
+}

@@ -1,44 +1,52 @@
 import React from 'react';
-import mexico from '../../assets/images/mexico.jpg'
-import paris from '../../assets/images/paris.jpg'
-import jim from '../../assets/images/jim.png'
+
+import { Link } from 'react-router-dom';
+
+import '../../stylesheets/AboutJim.css'
+
+
+import bookfork from '../../assets/images/bookfork.jpg'
+import bookJim from '../../assets/images/bookJim.jpg'
+import comfort from '../../assets/images/comfort.jpg'
+import cradle from '../../assets/images/cradle.jpg'
+import saveur from '../../assets/images/saveur.jpg'
+import openerWhite from '../../assets/images/openerWhite.jpg'
+
+import jimfullsm from '../../assets/images/jimfullsm.png'
+
+
+
+
+
 
 
 const AboutJim = () => {
-    return (
-      <div className='jim'>
-        <h2>About James Oseland</h2>
-        <div className='jim-outside-container'>
-        <div className='jim-inside-container'>
-          <div className='jim-scroll'>
-        <p>We then waited whilst Lucy made her toilet for the night, and when she was in bed he came and himself fixed the wreath of garlic round her neck. The last words he said to her were:--
+  return (
+    <section className='aboutJim'>
 
-            "Take care you do not disturb it; and even if the room feel close, do not to-night open the window or the door."
-
-            "I promise," said Lucy, "and thank you both a thousand times for all your kindness to me! Oh, what have I done to be blessed with such friends?"
-
-  As we left the house in my fly, which was waiting, Van Helsing said:--</p>
-  </div>
-
-        <div className='jim-box'>
-        <img src={mexico} alt='Mexico Book Cover'></img>
-          <img src={paris} alt='Paris Book Cover'></img>
-          <img src={jim} alt='Jimmy Neurosis Book Cover' className='jim-book'></img>
-
-
-          </div>
-          </div>
-          <div className='jim-foto'>
-            <p>ur foto here</p>
-
-          </div>
+        <div className='jim left'>
+          <p>James Oseland travels extensively in search of the world’s best restaurants, street food stalls, markets, and home cooks. He is the author and editor of World Food, a new book series from Ten Speed Press, and was the editor-in-chief for nine years of Saveur, America’s most acclaimed food magazine, where his work garnered many accolades, including seven James Beard Awards. His cookbook Cradle of Flavor was named one of the best books of 2006 by the New York Times and Good Morning America. Additionally, James’s writing has appeared in Gourmet, Vogue, Food and Wine, and the Wall Street Journal, where he writes the “Cook’s Playbook” column. He has appeared on Celebrity Apprentice, the Today Show, Iron Chef America, and was a permanent judge on all five seasons of Bravo’s Top Chef Masters. James is a popular cooking teacher and has taught at the Institute for Culinary Education, the New School, and New York City’s Natural Gourmet. He has lectured at culinary institutes and food societies around the world; in 2011, he delivered the keynote speech for the International Food Bloggers Conference. In 2013, he starred as himself in a series of Wendy’s commercials. He has lived in Indonesia, Malaysia, Thailand, and India and now calls Mexico City home. </p>
 
         </div>
-      </div>
-    );
-  };
+        <div className='jim main'>
+          <img src={jimfullsm} className='jimPhoto' alt=''></img>
+          </div>
+
+        <div className='jim right'>
+          <img src={bookfork} className='righty'alt=''></img>
+          <img src={comfort} className='righty'alt=''></img>
+          <img src={openerWhite} className='righty white'alt=''></img>
+          <img src={cradle} className='righty'alt=''></img>
+          <img src={saveur} className='righty'alt=''></img>
+          <img src={bookJim} className='righty' alt=''></img>
+          </div>
 
 
+      </section>
 
+
+  );
+};
 
 export default AboutJim;
+

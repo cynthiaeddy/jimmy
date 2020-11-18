@@ -20,9 +20,11 @@ body {
 
 	/* align-items: center; */
 	text-align: center;
-	height: 100vh;
+	height: 90vh;
 	margin: 0;
 	overflow: hidden;
+	margin-bottom: auto;
+	margin-top: 100px;
 }
 
 .jim-foto {

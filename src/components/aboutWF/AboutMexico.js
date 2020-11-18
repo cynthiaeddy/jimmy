@@ -48,21 +48,24 @@ class AboutMexico extends React.Component {
   return (
     // <div className='wf-container'>
 
-      <div className='wf-content'>
+    <div className='wf-content'>
+      <div className='arrows back'>
       <BackArrow
         goToPrevSlide={() => this.goToPrevSlide()}
-      />
-    <div className='slider-text'>
+        />
+        </div>
+    <div className='slider-item'>
       <Slide
         activeIndex={this.state.activeIndex}
       />
-    </div>
+      </div>
+      <div className='arrows front'>
       <ForwardArrow
         goToNextSlide={() => this.goToNextSlide()}
       />
 
       </div>
-      // </div>
+       </div>
   );
 };
 }

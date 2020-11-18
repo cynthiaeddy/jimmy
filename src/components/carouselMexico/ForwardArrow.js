@@ -4,14 +4,15 @@ class ForwardArrow extends Component {
   render() {
     return (
       <a href="#" onClick={this.props.goToNextSlide}>
-        <i className="fas fa-angle-double-right fa-2x" >
-          <div className='arrowSpace'><h2 >forward</h2></div>
-        </i>
+         <div className='arrowSpace'><h2 >forward <span>&gt;&gt;</span></h2></div>
+
+
       </a>
     );
   }
 }
 
 export default ForwardArrow;
+
 
 

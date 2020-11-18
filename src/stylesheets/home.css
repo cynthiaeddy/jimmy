@@ -14,7 +14,6 @@ h1 {
 	z-index: 10;
 	width: 80vw;
 	height: 100vh;
-	margin-top: 80px;
 	overflow-y: scroll;
 	position: relative;
 	display: flex;
@@ -35,11 +34,10 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	/* position: relative; */
 }
 
 .mexico {
-	/* margin-top: 20px; */
+	margin-top: 20px;
 	width: 96.75%;
 }
 .lefty,
@@ -69,10 +67,4 @@ h4 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
 	font-style: italic;
-}
-.whitebox {
-	width: 21px;
-	height: 22px;
-	background: black;
-	width: 50%;
 }

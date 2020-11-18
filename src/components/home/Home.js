@@ -55,7 +55,6 @@ const Home = () => {
         </div>
 
       </section>
-      {/* <img src={opener} className='opener'alt='opener'></img> */}
 
 
     </div>

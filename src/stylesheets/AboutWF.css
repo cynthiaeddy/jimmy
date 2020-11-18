@@ -53,6 +53,13 @@ h2 {
 .arrows.front {
 	width: 120px;
 }
+.arrow:hover {
+	color: grey;
+}
+
+.arrow {
+	cursor: pointer;
+}
 span {
 	font-family: 'UnifrakturMaguntia', cursive;
 	font-size: 25px;

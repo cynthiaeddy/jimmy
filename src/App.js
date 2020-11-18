@@ -22,7 +22,7 @@ function App() {
       <Navbar/>
       <div className="container">
       <Route exact path="/" component={Home} />
-      <Route path="/world-foods" component={AboutWF} />
+      <Route path="/world-foods" component={AboutMexico} />
       <Route path="/about-james" component={AboutJim} />
       <Route path="/sign-up" component={SignUp} />
       <Route path="/videos" component={Videos} />

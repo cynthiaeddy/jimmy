@@ -8,40 +8,40 @@ import '../../stylesheets/AboutWF.css'
 
 
 class AboutMexico extends React.Component {
-  constructor(props) {
-    super(props);
-      this.state = {
-      activeIndex: 0,
-      length: imageData.length
-    };
-  }
-  goToPrevSlide() {
-    let index = this.state.activeIndex;
-    let length = this.state.length;
-      if(index < 1) {
-      index = length - 1;
-      }
-      else {
-        index--;
-      }
-      this.setState({
-      activeIndex: index
-    });
-  }
+  // constructor(props) {
+  //   super(props);
+  //     this.state = {
+  //     activeIndex: 0,
+  //     length: imageData.length
+  //   };
+  // }
+  // goToPrevSlide() {
+  //   let index = this.state.activeIndex;
+  //   let length = this.state.length;
+  //     if(index < 1) {
+  //     index = length - 1;
+  //     }
+  //     else {
+  //       index--;
+  //     }
+  //     this.setState({
+  //     activeIndex: index
+  //   });
+  // }
 
-  goToNextSlide() {
-    let index = this.state.activeIndex;
-    let length = this.state.length;
-      if(index === length - 1) {
-        index = 0
-      }
-      else {
-        index++;
-      }
-    this.setState({
-    activeIndex: index
-      });
-  }
+  // goToNextSlide() {
+  //   let index = this.state.activeIndex;
+  //   let length = this.state.length;
+  //     if(index === length - 1) {
+  //       index = 0
+  //     }
+  //     else {
+  //       index++;
+  //     }
+  //   this.setState({
+  //   activeIndex: index
+  //     });
+  // }
 
 
   render (){
@@ -49,7 +49,8 @@ class AboutMexico extends React.Component {
     // <div className='wf-container'>
 
     <div className='wf-content'>
-      <div className='arrows back'>
+      hi
+      {/* <div className='arrows back'>
       <BackArrow
         goToPrevSlide={() => this.goToPrevSlide()}
         />
@@ -64,7 +65,7 @@ class AboutMexico extends React.Component {
         goToNextSlide={() => this.goToNextSlide()}
       />
 
-      </div>
+      </div> */}
        </div>
   );
 };

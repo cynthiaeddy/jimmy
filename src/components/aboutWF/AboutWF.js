@@ -1,14 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import imageData from '../carouselMexico/Images'
+import ForwardArrow from '../carouselMexico/ForwardArrow'
+import BackArrow from '../carouselMexico/BackArrow'
+import Slide from '../carouselMexico/Slide'
 
-import mexico from '../../assets/images/mexico.jpg'
+
 import '../../stylesheets/AboutWF.css'
 
 import cactusSpread from '../../assets/images/cactusSpread.jpg'
 
 const AboutWF = () => {
   return (
-    <div className='wf-container'>
+    // <div className='wf-container'>
     <div className='wf-content'>
      <h2><div className='back'>back</div></h2>
 
@@ -17,7 +20,7 @@ const AboutWF = () => {
       </div>
       <h2><div className='forward'>forward</div></h2>
       </div>
-      </div>
+      // </div>
 
   );
 };

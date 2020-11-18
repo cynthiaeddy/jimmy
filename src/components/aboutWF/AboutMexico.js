@@ -46,7 +46,6 @@ class AboutMexico extends React.Component {
 
   render (){
   return (
-
     <div className='wf-content'>
       <div className='arrows back'>
       <BackArrow
@@ -62,7 +61,6 @@ class AboutMexico extends React.Component {
       <ForwardArrow
         goToNextSlide={() => this.goToNextSlide()}
       />
-
       </div>
        </div>
   );

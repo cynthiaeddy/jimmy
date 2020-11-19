@@ -1,6 +1,7 @@
 import React from 'react';
 // import './ToggleButton.css';
 // import AltHome from '../AltHome';
+import '../../stylesheets/Navbar.css'
 
 const ToggleButton = () => (
 	<div className="toggle" >

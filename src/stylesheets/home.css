@@ -5,7 +5,17 @@
 	opacity: 0%;
 	width: 90vw;
 }
-
+.home-container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+	margin-bottom: auto;
+	margin-top: 140px;
+	width: 100vw;
+	height: 100vh;
+}
 h1 {
 	font-weight: 400;
 	text-transform: uppercase;
@@ -15,6 +25,7 @@ h1 {
 	font-size: 110px;
 	right: 2%;
 	margin-top: 15px;
+	/* margin-top: 0; */
 }
 .home {
 	z-index: 10;
@@ -24,7 +35,7 @@ h1 {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	/* margin-top: -40px; */
+	margin-top: -40px;
 }
 
 .photo-container {

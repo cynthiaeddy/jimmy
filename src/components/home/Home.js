@@ -30,7 +30,7 @@ import openerWaiter from '../../assets/images/openerWaiter.jpg'
 const Home = () => {
   return (
 
-    <div className='container'>
+    <div className='home-container'>
       <NavbarHome/>
     <div className='home'>
 

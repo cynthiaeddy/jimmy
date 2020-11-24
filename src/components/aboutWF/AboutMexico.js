@@ -1,4 +1,6 @@
 import React from 'react';
+import Navbar from '../navbar/Navbar'
+
 import imageData from '../carouselMexico/Images'
 import ForwardArrow from '../carouselMexico/ForwardArrow'
 import BackArrow from '../carouselMexico/BackArrow'
@@ -46,7 +48,9 @@ class AboutMexico extends React.Component {
 
   render (){
     console.log()
-  return (
+    return (
+      <div className='container'>
+        <Navbar/>
     <div className='wf-content'>
       <div className='arrows back'>
       <BackArrow
@@ -64,7 +68,8 @@ class AboutMexico extends React.Component {
         goToNextSlide={() => this.goToNextSlide()}
       />
       </div>
-       </div>
+        </div>
+        </div>
   );
 };
 }

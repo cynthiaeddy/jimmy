@@ -1,15 +1,20 @@
 /* font-family: franklin-gothic-urw, sans-serif; */
 /* font-family: franklin-gothic-urw, sans-serif; */
+.fpo {
+	position: absolute;
+	opacity: 0%;
+	width: 90vw;
+}
+
 h1 {
 	font-weight: 400;
-	font-size: 200px;
 	text-transform: uppercase;
 	letter-spacing: -2px;
 	position: absolute;
 	color: black;
-	font-size: 81px;
+	font-size: 110px;
 	right: 2%;
-	margin-top: 40px;
+	margin-top: 15px;
 }
 .home {
 	z-index: 10;
@@ -19,6 +24,7 @@ h1 {
 	position: relative;
 	display: flex;
 	justify-content: center;
+	/* margin-top: -40px; */
 }
 
 .photo-container {
@@ -56,20 +62,47 @@ img.righty {
 }
 .homeDek {
 	position: absolute;
-	top: 25%;
+	top: 27%;
 	width: 50%;
+	height: 100%;
 }
-h4 {
+h4,
+span.intro {
 	text-align: left;
-	margin-left: 35px;
+	margin-left: 37px;
 	letter-spacing: 0;
-	font-size: 25px;
 	line-height: 1.2;
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
-	font-style: italic;
+	font-size: 32px;
+	margin-top: 0;
+}
+h4 {
+	margin-bottom: 85px;
+}
+span.intro {
+	font-weight: 800;
+	margin: 0;
+	line-height: 0;
+	text-transform: uppercase;
+	font-size: 22px;
+	letter-spacing: 1px;
 }
 .sign-up {
-	width: 50%;
-	left: 0%;
+	position: absolute;
+	left: 32px;
+	width: 90%;
+	height: 30px;
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+h7 {
+	padding-top: 2px;
+	line-height: 1.4;
+}
+
+.photoCredit {
+	text-align: left;
+	margin: 0 15px;
 }

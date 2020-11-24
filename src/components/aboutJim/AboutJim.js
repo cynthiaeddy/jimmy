@@ -3,6 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../../stylesheets/AboutJim.css'
+import Navbar from '../navbar/Navbar'
+
 
 
 import bookfork from '../../assets/images/bookfork.jpg'
@@ -22,6 +24,8 @@ import jimfullsm from '../../assets/images/jimfullsm.png'
 
 const AboutJim = () => {
   return (
+    <div className='container'>
+      <Navbar/>
     <section className='aboutJim'>
 
       <div className='jim left'>
@@ -44,8 +48,8 @@ const AboutJim = () => {
 
           </div>
 
-
       </section>
+          </div>
 
 
   );

@@ -6,12 +6,12 @@ import '../../stylesheets/Navbar.css'
 
 
 
-const Navbar = () => {
+const NavbarHome = () => {
   return (
 
-		<nav id="navbar">
-				<Link to="/navbar"><h3>Menu</h3></Link>
-			<Link to='/about-james'><h3>James Oseland</h3></Link>
+		<nav id="navbarHome">
+			<Link to="/navbar"><h3>Menu</h3></Link>
+			<Link to='/about-james'><h6>James Oseland's</h6></Link>
 
 
 
@@ -20,4 +20,6 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarHome;
+
+

@@ -17,12 +17,12 @@ const NavBarToggle = () => {
               </li>
 						<li>
 							<Link to="/world-foods" className="world-foods">
-								About World Foods
+								About World Food
 							</Link>
 						</li>
 						<li>
 							<Link to="/about-james" className="about-james">
-								About Jim
+								About James Oseland
 							</Link>
               </li>
               <li>
@@ -31,8 +31,8 @@ const NavBarToggle = () => {
 							</Link>
               </li>
               <li>
-							<Link to="/videos" className="videos">
-								Videos
+							<Link to="/blog" className="blog">
+								Blog
 							</Link>
           </li>
 

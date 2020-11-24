@@ -7,7 +7,7 @@ import AboutWF from './components/aboutWF/AboutMexico'
 import AboutMexico from './components/aboutWF/AboutMexico'
 
 import SignUp from './components/signUp/SignUp'
-import Videos from './components/videoPage/Videos'
+import Blog from './components/blog/Blog'
 import NavBarToggle from './components/navBarToggle/NavBarToggle'
 import Navbar from './components/navbar/Navbar'
 
@@ -25,7 +25,7 @@ function App() {
       <Route path="/world-foods" component={AboutMexico} />
       <Route path="/about-james" component={AboutJim} />
       <Route path="/sign-up" component={SignUp} />
-      <Route path="/videos" component={Videos} />
+      <Route path="/blog" component={Blog} />
       <Route path="/navbar" component={NavBarToggle} />
 
 

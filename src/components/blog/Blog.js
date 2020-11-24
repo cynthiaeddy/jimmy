@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Videos = () => {
+const Blog = () => {
   return (
     <div className='video'>
-      <h2>videos</h2>
+      <h2>blog, newsletter, videos</h2>
 
     </div>
   );
 };
 
-export default Videos;
+export default Blog;

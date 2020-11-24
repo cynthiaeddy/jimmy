@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import '../../stylesheets/home.css'
 import mexico from '../../assets/images/mexico.jpg'
 
-import opener from '../../assets/images/jim indesign3 1.png'
+import jimIndesign from '../../assets/images/jim indesign4.jpg'
 
 import openerBlue from '../../assets/images/openerBlue.jpg'
 import openerCorn from '../../assets/images/openerCorn.jpg'
@@ -28,6 +28,8 @@ const Home = () => {
   return (
     <div className='home'>
 
+
+
       <h1>World Food Books</h1>
       <section className='photo-container'>
         <div className='interior left'>
@@ -46,10 +48,10 @@ const Home = () => {
           <img src={openerWaiter} className='righty'alt=''></img>
           <img src={openerWhite} className='righty white'alt=''></img>
           <img src={openerOysters} className='righty'alt=''></img>
-          <img src={openerRed} className='righty'alt=''></img>
+          <img src={openerWhite} className='righty'alt=''></img>
           <img src={openerFighter} className='righty'alt=''></img>
-          <div className='homeDek'><h4>dek goes here something this long maybe to fill this space another line</h4></div>
-
+          <div className='homeDek'><h4>Introducing World Food, an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h4></div>
+        <button className='sign-up'>SIGN UP NOW!</button>
         </div>
 
       </section>

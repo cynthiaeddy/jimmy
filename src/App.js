@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/home/Home'
 import HomeGrid from './components/home/HomeGrid'
 
 import AboutJim from './components/aboutJim/AboutJim'

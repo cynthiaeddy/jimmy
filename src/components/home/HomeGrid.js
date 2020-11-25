@@ -7,18 +7,18 @@ import '../../stylesheets/HomeGrid.css'
 import mexico from '../../assets/images/mexico.jpg'
 
 
-import openerBlue from '../../assets/images/openerBlue.jpg'
-import openerCorn from '../../assets/images/openerCorn.jpg'
-import openerDessert from '../../assets/images/openerDessert.jpg'
-import openerFighter from '../../assets/images/openerFighter.jpg'
-import openerFlan from '../../assets/images/openerFlan.jpg'
-import openergal from '../../assets/images/openergal.jpg'
+import openerBlue1 from '../../assets/images/openerBlue1.jpg'
+import openerCorn1 from '../../assets/images/openerCorn1.jpg'
+import openerDessert1 from '../../assets/images/openerDessert1.jpg'
+import openerFighter1 from '../../assets/images/openerFighter1.jpg'
+import openerFlan1 from '../../assets/images/openerFlan1.jpg'
+import openergal1 from '../../assets/images/openergal1.jpg'
 import openerWhite from '../../assets/images/openerWhite.jpg'
-import openerMan from '../../assets/images/openerMan.jpg'
-import openerOysters from '../../assets/images/openerOysters.jpg'
-import openerRed from '../../assets/images/openerRed.jpg'
-import openerWoman from '../../assets/images/openerWoman.jpg'
-import openerWaiter from '../../assets/images/openerWaiter.jpg'
+import openerMan1 from '../../assets/images/openerMan1.jpg'
+import openerOysters1 from '../../assets/images/openerOysters1.jpg'
+import openerRed1 from '../../assets/images/openerRed1.jpg'
+import openerWoman1 from '../../assets/images/openerWoman1.jpg'
+import openerWaiter1 from '../../assets/images/openerWaiter1.jpg'
 
 
 
@@ -39,12 +39,12 @@ const HomeGrid = () => {
       </div>
 
       <div className='grid-2 left'>
-        <img src={openergal} className='gal'alt=''></img>
-        <img src={openerFlan} className='flan'alt=''></img>
-        <img src={openerCorn} className='corn'alt=''></img>
-        <img src={openerWoman} className='woman'alt=''></img>
-        <img src={openerMan} className='man'alt=''></img>
-        <img src={openerDessert} className='dessert' alt=''></img>
+        <img src={openergal1} className='gal'alt=''></img>
+        <img src={openerFlan1} className='flan'alt=''></img>
+        <img src={openerCorn1} className='corn'alt=''></img>
+        <img src={openerWoman1} className='woman'alt=''></img>
+        <img src={openerMan1} className='man'alt=''></img>
+        <img src={openerDessert1} className='dessert' alt=''></img>
       </div>
 
       <div className='grid-3 main'>
@@ -52,14 +52,17 @@ const HomeGrid = () => {
       </div>
 
         <div className='grid-4 right'>
-          <img src={openerBlue} className='image-tl'alt=''></img>
-          <img src={openerWaiter} className='image-tr' alt=''></img>
+          <img src={openerBlue1} className='image-tl'alt=''></img>
+          <img src={openerWaiter1} className='image-tr' alt=''></img>
           <div className='homeDek copy'>
+            <div className='help'>
             <h4><span className='intro'>Introducing World Food,</span> an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h4>
+
+            </div>
             <button className='signUpBtn'><h7>SIGN UP NOW!</h7></button>
           </div>
-          <img src={openerOysters} className='image-m'alt=''></img>
-          <img src={openerFighter} className='image-b'alt=''></img>
+          <img src={openerOysters1} className='image-m'alt=''></img>
+          <img src={openerFighter1} className='image-b'alt=''></img>
         </div>
 
         <div>

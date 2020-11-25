@@ -5,7 +5,7 @@
 	margin: 0;
 	overflow: hidden;
 	margin-bottom: auto;
-	margin-top: 160px;
+	margin-top: 120px;
 	width: 100vw;
 	height: 100vh;
 }
@@ -84,7 +84,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: -2px;
 	color: black;
-	font-size: 100px;
+	font-size: 80px;
 	right: 14.5vw;
 	margin: 0;
 	text-align: right;
@@ -118,14 +118,14 @@ div.homeDek.copy {
 h4 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
-	font-size: 27px;
+	font-size: 22px;
 }
 span.intro {
 	font-weight: 600;
 	margin: 0;
 	line-height: 0;
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 19px;
 	letter-spacing: 1px;
 	font-family: franklin-gothic-atf, sans-serif;
 }
@@ -134,7 +134,7 @@ span.intro {
 	width: 94%;
 	background: black;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	bottom: 5px;
 	font-weight: 500;
 	font-family: franklin-gothic-atf, sans-serif;

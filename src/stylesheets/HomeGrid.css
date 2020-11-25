@@ -132,9 +132,16 @@ span.intro {
 .signUpBtn {
 	position: absolute;
 	width: 94%;
-	height: 30px;
 	background: black;
 	color: white;
 	font-size: 20px;
 	bottom: 5px;
+	font-weight: 500;
+	font-family: franklin-gothic-atf, sans-serif;
+	padding: 3px;
+}
+h7 {
+	font-family: franklin-gothic-atf, sans-serif;
+	padding-bottom: 5px;
+	vertical-align: top;
 }

@@ -1,10 +1,6 @@
 /* font-family: franklin-gothic-urw, sans-serif; */
 /* font-family: franklin-gothic-urw, sans-serif; */
-.fpo {
-	position: absolute;
-	opacity: 0%;
-	width: 90vw;
-}
+
 .home-container {
 	display: flex;
 	justify-content: center;
@@ -25,6 +21,7 @@ h1 {
 	font-size: 110px;
 	right: 2%;
 	margin-top: 15px;
+
 	/* margin-top: 0; */
 }
 .home {
@@ -90,19 +87,21 @@ span.intro {
 }
 h4 {
 	margin-bottom: 85px;
+	color: rgba(0, 0, 0, .8);
 }
 span.intro {
-	font-weight: 800;
+	font-weight: 600;
 	margin: 0;
 	line-height: 0;
 	text-transform: uppercase;
 	font-size: 22px;
 	letter-spacing: 1px;
+	font-family: franklin-gothic-atf, sans-serif;
 }
-.sign-up {
+.signUpBtn {
 	position: absolute;
 	left: 32px;
-	width: 90%;
+	width: 80%;
 	height: 30px;
 	background: black;
 	color: white;

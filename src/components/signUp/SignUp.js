@@ -1,12 +1,16 @@
 import React from 'react';
+import Navbar from '../navbar/Navbar'
+
 
 const SignUp = () => {
   return (
-    <div className='signup'>
+    <div className='container'>
+      <Navbar/>
     <h2>
         sign up
     </h2>
     </div>
+
   );
 };
 

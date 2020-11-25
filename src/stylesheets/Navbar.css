@@ -14,9 +14,7 @@
 	margin-top: 50px;
 	padding: 0 9vw;
 }
-h3 {
-	padding-top: 30px;
-}
+
 h3,
 h6 {
 	font-size: 25px;
@@ -29,16 +27,16 @@ h6 {
 h6 {
 	font-size: 42px;
 }
+h3 {
+	padding-top: 30px;
+	letter-spacing: 4px;
+}
 ul {
 	padding: 0;
+	display: flex;
+	justify-content: center;
 }
-li {
-	display: inline-flex;
-	position: relative;
-	padding: 0 20px;
-	font-size: 20px;
-	font-weight: 300;
-}
+
 a {
 	text-decoration: none;
 	color: #000;
@@ -52,45 +50,12 @@ a:hover {
 	align-items: center;
 	position: relative;
 }
-.toggleNavBar a {
-	margin: 20px 0;
-	color: white;
-}
-.toggleNavBar a:hover {
-	color: black;
-}
-.toggle {
-	height: 100px;
-	width: 100px;
-	position: absolute;
-	z-index: 10;
-	left: 20px;
-	top: 40px;
-}
+
 .toggleNavBar {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-.toggle .topLine {
-	margin-top: -40px;
-	background: transparent;
-	/* transform: rotate(-45deg); */
-	top: 50px;
-}
-.toggle .middleLine {
-	margin-top: -10px;
-	background: transparent;
-}
-.toggle .bottomLine {
-	margin-top: 0px;
-	background: transparent;
-	/* transform: rotate(45deg); */
-	/* left: 10px; */
-}
-
-.toggleNavBar {
 	width: 100vw;
 	height: 100vh;
 	background: grey;
@@ -101,3 +66,40 @@ a:hover {
 	left: 0;
 	margin: 0;
 }
+
+li {
+	display: inline-flex;
+}
+
+.toggleNavBar a {
+	margin: 20px 0;
+	color: white;
+}
+.toggleNavBar a:hover {
+	color: black;
+}
+/* .toggle {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	z-index: 10;
+	left: 20px;
+	top: 40px;
+} */
+
+/* .toggle .topLine {
+	margin-top: -40px;
+	background: transparent; */
+/* transform: rotate(-45deg); */
+/* top: 50px;
+} */
+/* .toggle .middleLine {
+	margin-top: -10px;
+	background: transparent;
+} */
+/* .toggle .bottomLine {
+	margin-top: 0px;
+	background: transparent; */
+/* transform: rotate(45deg); */
+/* left: 10px; */
+/* } */

@@ -34,7 +34,6 @@ const Home = () => {
       <NavbarHome/>
     <div className='home'>
 
-<img src={jimIndesign} className='fpo'></img>
 
       <h1>World Food</h1>
       <section className='photo-container'>
@@ -59,7 +58,7 @@ const Home = () => {
           <img src={openerFighter} className='righty'alt=''></img>
             <div className='homeDek'>
               <h4><span className='intro'>Introducing World Food,</span> an exceptional new series in the tradition of classic cookbooks that take you on a journey to the world's greatest cuisines and the remarkable cultures they come from.</h4>
-        <button className='sign-up'><h7>SIGN UP NOW!</h7></button>
+        <button className='signUpBtn'><h7>SIGN UP NOW!</h7></button>
             </div>
             </div>
 

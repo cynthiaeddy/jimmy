@@ -15,7 +15,7 @@ const NavBarToggle = () => {
 							</Link>
               </li>
 						<li>
-							<Link to="/world-foods" className="world-foods">
+							<Link to="/world-food" className="world-food">
 								About World Food
 							</Link>
 						</li>

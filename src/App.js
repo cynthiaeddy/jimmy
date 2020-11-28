@@ -19,9 +19,8 @@ import NavBarToggle from './components/navBarToggle/NavBarToggle'
 function App() {
   return (
     <div>
-      {/* <div className="container"> */}
       <Route exact path="/" component={HomeGrid} />
-      <Route path="/world-foods" component={AboutMexico} />
+      <Route path="/world-food" component={AboutMexico} />
       <Route path="/about-james" component={AboutJim} />
       <Route path="/sign-up" component={SignUp} />
       <Route path="/blog" component={Blog} />

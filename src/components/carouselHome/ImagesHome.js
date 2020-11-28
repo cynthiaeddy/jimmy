@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../../stylesheets/AboutWF.css'
+import '../../stylesheets/CarouselHome.css'
 
 
 import mexico from '../../assets/images/mexico.jpg'

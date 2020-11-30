@@ -1,5 +1,5 @@
 import React from 'react';
-import imageData from '../carouselHome/ImagesHome'
+import imageData from './ImagesHome'
 import '../../stylesheets/CarouselHome.css'
 
 

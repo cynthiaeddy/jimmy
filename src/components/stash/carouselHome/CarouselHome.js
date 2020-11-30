@@ -1,8 +1,8 @@
 import React from 'react';
 
-import imageData from '../carouselHome/ImagesHome'
+import imageData from './ImagesHome'
 
-import SlideHome from '../carouselHome/SlideHome'
+import SlideHome from './SlideHome'
 import '../../stylesheets/CarouselHome.css'
 
 

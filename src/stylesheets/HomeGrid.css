@@ -143,3 +143,15 @@ span.intro {
 h2.grid-5.footer {
 	font-size: 15px;
 }
+
+.main {
+	display: flex;
+	overflow-x: auto;
+	/* scroll-snap-points-x: repeat(300px); */
+	scroll-snap-type: mandatory;
+}
+.main > div {
+	flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+}

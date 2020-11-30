@@ -5,8 +5,6 @@ import NavbarHome from '../navbarHome/NavbarHome'
 import '../../stylesheets/HomeGrid.css'
 
 import mexico from '../../assets/images/mexico.jpg'
-import paris from '../../assets/images/paris.jpg'
-
 
 
 import openerBlue1 from '../../assets/images/openerBlue1.jpg'
@@ -49,12 +47,8 @@ const HomeGrid = () => {
         <img src={openerDessert1} className='dessert' alt=''></img>
       </div>
 
-        <div className='grid-3 main'>
-          <div>
-            <Link to="/world-food" className="world-food"><img src={mexico} className='mexico' alt=''></img></Link></div>
-          <div>
-            <img src={paris} className='mexico' alt=''></img>
-            </div>
+      <div className='grid-3 main'>
+        <Link to="/world-food" className="world-food"><img src={mexico} className='mexico'alt=''></img></Link>
       </div>
 
         <div className='grid-4 right'>
